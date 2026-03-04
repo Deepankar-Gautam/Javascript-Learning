@@ -34,4 +34,3 @@ console.log(name)
 
 console.log (typeof name)
 
-//HERE I AM
