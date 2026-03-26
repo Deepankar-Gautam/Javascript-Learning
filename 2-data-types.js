@@ -8,10 +8,10 @@ let and const : can store
 1. Number : integer, float
 2. String : words
 3. Boolean : true / false
-4. Bigint : stores the value which can't fit in under 64 bits
+4. Bigint : stores the value which can't fit in under 64 bits/8 bytes
 5. Null : intentionally saying that the value is null
 6. Symbol
-7. Undefined   Note : Not valid for "const"
+7. Undefined : unintentional absence of a value   Note : Not valid for "const"
 
 (2). Non - Primitive :- 
 
@@ -21,7 +21,7 @@ let and const : can store
 
 ----------------------------------------------
 Note :-
-1. Data type of "null" is "object", this is a bug.
+1. Data type of "null" is "object", this is a bug which was never fixed to avoid breakage of old codes.
 
 2. let and const Symbol looks same but are indeed different.
 

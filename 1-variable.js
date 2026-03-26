@@ -10,7 +10,7 @@ there are 3 types of variable:-
 note: trying to change const will give #error
 
 let vs const :- in let we can assign new value but in const we can't
-eg: let is like balance and const is like bank account number
+analogy: let is like balance and const is like bank account number
 
 let vs var: let is new variable and var is old variable, we don't use var because of limitations
 
